@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body style="direction: rtl; margin-top: 90px;">
+    <!--  -->
+    <div style="height: 100vh;">
+        <!-- city  name + date   -->
+        <div>
+            <!-- city name  -->
+            <div style="margin-right: 40px;">
+                <h1 id="city-name">عاصمة الدنيا غزة </h1>
+                <h6 style="font-size: 40px;font-weight: 200; color: white;" id="time-now"> الجمعة 24 نوفمبر </h6>
+            </div>
+            <hr>
+            <!-- //city name // -->
+
+            <!-- PRAYER TIMING -->
+             <div  class="center" style="height: 300px; margin-top: 80px; justify-content: space-around;">
+                <!-- cards  -->
+                    <div class="cards">
+                        <div class="hader" >
+                            <h1>الفجر</h1>
+                        </div>
+
+                        <div class="body center" style=" height: 80%;">
+                            <h1 class="Time" id="fajer-time">
+                                4:30
+                            </h1>
+                        </div>
+                    </div>
+                    <!-- //cards//  -->
+<!-- cards  -->
+                    <div class="cards">
+                        <div class="hader" >
+                            <h1>الشروق</h1>
+                        </div>
+
+                        <div class="body center" style=" height: 80%;">
+                            <h1 class="Time" id="shroq-time" >
+                                4:30
+                            </h1>
+                        </div>
+                    </div>
+                    <!-- //cards//  -->
+                     <!-- cards  -->
+                     <div class="cards">
+                        <div class="hader" >
+                            <h1>الظهر</h1>
+                        </div>
+
+                        <div class="body center" style=" height: 80%;">
+                            <h1 class="Time" id="doher-time" >
+                                4:30
+                            </h1>
+                        </div>
+                    </div>
+                    <!-- //cards//  -->
+
+
+                     <!-- cards  -->
+                     <div class="cards">
+                        <div class="hader" >
+                            <h1>العصر</h1>
+                        </div>
+
+                        <div class="body center" style=" height: 80%;">
+                            <h1 class="Time" id="aser-time" >
+                                4:30
+                            </h1>
+                        </div>
+                    </div>
+                    <!-- //cards//  -->
+
+
+                     <!-- cards  -->
+                     <div class="cards">
+                        <div class="hader" >
+                            <h1>المغرب</h1>
+                        </div>
+
+                        <div class="body center" style=" height: 80%;">
+                            <h1 class="Time"  id="maghreb-time">
+                                4:30
+                            </h1>
+                        </div>
+                    </div>
+                    <!-- //cards//  -->
+                     <!-- cards  -->
+                    <div class="cards">
+                        <div class="hader">
+                            <h1>العشاء</h1>
+                        </div>
+
+                        <div class="body center" style=" height: 80%;">
+                            <h1 class="Time"   id="asha-time">
+                                4:30
+                            </h1>
+                        </div>
+                    </div>
+                    <!-- //cards//  -->
+                     
+
+             </div>
+             <!--// PRAYER TIMING //-->
+        </div>
+        <!-- //city  name + date //  -->
+
+
+        <!-- change city  -->
+         <div class="center" style="margin-top: 120px;"> 
+            <select onchange=""  name="" id="cityselcted" style="width: 300px; height: 45px; font-size: 25px;font-family:  Tajawal; background:none; color: rgb(240, 234, 234);padding: 5px ;border-radius: 20px;">
+<!--             
+            <option value="">غزة </option>
+            <option value="">القدس </option>
+            <option value="">مكة </option>
+            <option value="">فولغوغراد</option> -->
+            
+        </select>
+    </div>
+       
+
+        <!-- //change city//  -->
+    </div>
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
